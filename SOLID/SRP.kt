@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         val data = apiService.getData()
 
         // 데이터 처리
-        val  processedData = processData(data)
+        val processedData = processData(data)
 
         // UI 업데이트
         updateUI(processedData)
